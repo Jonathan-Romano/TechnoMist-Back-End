@@ -10,7 +10,6 @@ Esta API proporciona los servicios necesarios para gestionar productos, carritos
 de compras y ventas dentro de una plataforma de comercio electrónico. 
 Permite listar productos, administrar el contenido de carritos de compras y 
 registrar ventas.
-
 ###Funciones principales: 
 
 • Gestión de productos (agregar, eliminar, listar, obtener detalles).
