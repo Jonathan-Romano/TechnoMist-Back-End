@@ -221,7 +221,7 @@ GET  “/api/products-service/product/{id}”
 >Descripción: Este endpoint devuelve los detalles de un carrito de compras, incluyendo los productos asociados.
 
 Ejemplo:
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-1.jpg)
 --
 
 #### • Listar Carritos:
@@ -233,7 +233,7 @@ GET  “/api/cart-service/cart/list”
 >Descripción:  Este endpoint devuelve una lista de todos los carritos de compras.
 
 Ejemplo:
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-list.jpg)
 --
 #### • Listar Carritos con Productos:
 
@@ -244,7 +244,7 @@ GET  “/api/cart-service/cart/list/products”
 >Descripción:  Este endpoint devuelve una lista de todos los carritos con sus productos.
 
 Ejemplo:
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-list-with-products.jpg)
 --
 #### • Crear Carrito:
 
@@ -255,7 +255,7 @@ POST  “/api/cart-service/cart/create”
 >Descripción: Este endpoint crea un nuevo carrito de compras.
 
 Ejemplo:
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-create.jpg)
 --
 #### •  Agregar Producto al Carrito:
 
@@ -266,7 +266,7 @@ POST  “/cart-service/cart/{id}/add/product/{cod}”
 >Descripción: Este endpoint agrega un producto al carrito especificado por su codigo de producto unico.
 
 Ejemplo:
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-add-product.jpg)
 --
 #### • Eliminar Producto del Carrito:
 
@@ -277,7 +277,7 @@ GET  “/api/cart-service/cart/{id}/delete/product/{cod}”
 >Descripción:  Este endpoint elimina un producto del carrito especificado por su codigo de producto unico.
 
 Ejemplo:
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-delete-product.jpg)
 --
 #### •  Eliminar Carrito:
 
@@ -288,7 +288,7 @@ GET  “/api/cart-service/cart/delete/{id}”
 >Descripción: Este endpoint elimina un carrito de compras por su ID.
 
 Ejemplo:
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-delete.jpg)
 --
 
 ### Servicio de ventas:
