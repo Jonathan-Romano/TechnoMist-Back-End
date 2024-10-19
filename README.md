@@ -29,6 +29,17 @@ actualizaciones:
 • **API Gateway** (Spring Cloud Gateway)
 
 # Guía de uso:
+### Implementacion de docker:
+>Una vez se tiene docker en el pc, abrir una consola en la carpeta de TechnoMist-Back-End y ejecutar:
+```
+primero: "docker compose build"
+segunfo: "docoker compose up"
+```
+
+##### •Esto deberia crearte los siguientes contenedores en docker:
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/product-service/product-service-product-1.jpg)
+
+---
 ### Servicio de productos:
 
 #### • Obtener Producto por ID
