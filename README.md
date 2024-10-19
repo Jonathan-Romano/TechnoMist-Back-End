@@ -117,6 +117,7 @@ GET  “/api/products-service/product/{id}”
 >Descripción: Este endpoint devuelve los detalles de un carrito de compras, incluyendo los productos asociados.
 
 Ejemplo:
+
 ![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-1.jpg)
 --
 
@@ -129,6 +130,7 @@ GET  “/api/cart-service/cart/list”
 >Descripción:  Este endpoint devuelve una lista de todos los carritos de compras.
 
 Ejemplo:
+
 ![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-list.jpg)
 --
 #### • Listar Carritos con Productos:
@@ -140,6 +142,7 @@ GET  “/api/cart-service/cart/list/products”
 >Descripción:  Este endpoint devuelve una lista de todos los carritos con sus productos.
 
 Ejemplo:
+
 ![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-list-with-products.jpg)
 --
 #### • Crear Carrito:
@@ -151,6 +154,7 @@ POST  “/api/cart-service/cart/create”
 >Descripción: Este endpoint crea un nuevo carrito de compras.
 
 Ejemplo:
+
 ![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-create.jpg)
 --
 #### •  Agregar Producto al Carrito:
@@ -162,6 +166,7 @@ POST  “/cart-service/cart/{id}/add/product/{cod}”
 >Descripción: Este endpoint agrega un producto al carrito especificado por su codigo de producto unico.
 
 Ejemplo:
+
 ![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-add-product.jpg)
 --
 #### • Eliminar Producto del Carrito:
@@ -173,6 +178,7 @@ GET  “/api/cart-service/cart/{id}/delete/product/{cod}”
 >Descripción:  Este endpoint elimina un producto del carrito especificado por su codigo de producto unico.
 
 Ejemplo:
+
 ![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-delete-product.jpg)
 --
 #### •  Eliminar Carrito:
@@ -184,6 +190,7 @@ GET  “/api/cart-service/cart/delete/{id}”
 >Descripción: Este endpoint elimina un carrito de compras por su ID.
 
 Ejemplo:
+
 ![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/cart-service/cart-service-cart-delete.jpg)
 --
 
@@ -198,6 +205,7 @@ GET  “/api/sale-service/sale/{id}”
 >Descripción: Este endpoint devuelve los detalles de una venta.
 
 Ejemplo:
+
 ![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/sale-service/sale-service-sale-1.jpg)
 --
 
@@ -210,6 +218,7 @@ GET  “/api/sale-service/sale/list”
 >Descripción:  Este endpoint devuelve una lista de todas las ventas.
 
 Ejemplo:
+
 ![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/sale-service/sale-service-sale-list.jpg)
 --
 #### • Listar venta con carrito:
@@ -221,6 +230,7 @@ GET  “/api/sale-service/sale/{id}/cart”
 >Descripción:  Este endpoint devuelve una venta con el detalle de su carrito de compra.
 
 Ejemplo:
+
 ![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/sale-service/sale-service-sale-1-with-cart.jpg)
 --
 #### • Lista de ventas con carritos:
@@ -232,6 +242,7 @@ GET  “/api/sale-service/sale/list/cart”
 >Descripción: Este endpoint devuelve una lista de todas las ventas y el detalle de sus carritos de compra.
 
 Ejemplo:
+
 ![]()
 --
 #### • Crear venta:
@@ -243,6 +254,7 @@ POST  “/api/sale-service/sale/create”
 >Descripción: Este endpoint crea una nueva venta.
 
 Ejemplo:
+
 ![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/sale-service/sale-service-sale-create.jpg)
 --
 #### •  Editar venta:
@@ -254,6 +266,7 @@ PUT  “/api/sale-service/sale/edit”
 >Descripción: Este endpoint permite editar una venta.
 
 Ejemplo:
+
 ![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/sale-service/sale-service-sale-edit.jpg)
 --
 #### • Eliminar venta:
@@ -265,6 +278,7 @@ GET  “/api/sale-service/sale/delete/{id}”
 >Descripción:  Este endpoint elimina una venta utilizando su id.
 
 Ejemplo:
+
 ![]()
 --
 #### •  Eliminar Carrito:
@@ -276,5 +290,6 @@ DELETE  “/api/cart-service/cart/delete/{id}”
 >Descripción: Este endpoint elimina un carrito de compras por su ID.
 
 Ejemplo:
+
 ![](https://pandao.github.io/editor.md/examples/images/4.jpg)
 --
