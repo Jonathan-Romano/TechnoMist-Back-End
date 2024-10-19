@@ -1,0 +1,80 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: mysql-container
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}  # Contraseña para el usuario root
+      MYSQL_DATABASE: productDB            # Base de datos inicial      # Contraseña para el usuario adicional (opcional)
+    ports:
+      - "3307:3306"                        # Mapea el puerto 3306 de la base de datos al host
+    volumes:
+      - ./init-scripts:/docker-entrypoint-initdb.d  # Carpeta con scripts SQL de inicialización
+      - mysql_data:/var/lib/mysql            # Almacena los datos de la base de datos en un volumen para persistencia
+    networks:
+      - tecnomist-networks
+
+  eureka-sv-technomist:
+    build: eureka-sv-Technomist
+    mem_limit: 512mb
+    ports: 
+      - "8761:8761"
+    networks:
+      - 'tecnomist-networks'
+
+  api-gateway-technomist:
+    build: api-gateway-Technomist
+    mem_limit: 512mb
+    ports: 
+      - "443:443"
+    networks:
+      - 'tecnomist-networks'
+
+  productos-technomist:
+    build:  productos-Technomist
+    mem_limit: 512mb
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/productDB?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: ${DB_USER}
+      SPRING_DATASOURCE_PASSWORD: ${DB_PASSWORD}
+    ports: 
+      - "8082:8082"
+    networks:
+      - 'tecnomist-networks'
+    depends_on:
+      - mysql
+
+  carrito-compras-technomist:
+    build: carrito-compras-Technomist
+    mem_limit: 512mb
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/cartDB?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: ${DB_USER}
+      SPRING_DATASOURCE_PASSWORD: ${DB_PASSWORD}
+    ports: 
+      - "8083:8083"
+    networks:
+      - 'tecnomist-networks'
+    depends_on:
+      - mysql
+
+  ventas-technomist:
+    build: ventas-Technomist
+    mem_limit: 512mb
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/saleDB?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: ${DB_USER}
+      SPRING_DATASOURCE_PASSWORD: ${DB_PASSWORD}
+    ports: 
+      - "8084:8084"
+    networks:
+      - 'tecnomist-networks'
+    depends_on:
+      - mysql
+
+networks:
+  tecnomist-networks:
+    driver: bridge
+volumes: 
+  mysql_data:
+
+
