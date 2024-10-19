@@ -30,13 +30,13 @@ La API se divide en tres microservicios principales:
 A su vez también usa los siguientes patrones de diseño para facilitar futuras 
 actualizaciones:
 
-•** Service register y Service Discovery** (Eureka Server)
+• Service register y Service Discovery (Eureka Server)
 
-•** Load Balancing** (Spring Cloud Load Balancer)
+•Load Balancing (Spring Cloud Load Balancer)
 
-• **Circuit Breaker** (Resilience4J)
+• Circuit Breaker (Resilience4J)
 
-• **API Gateway** (Spring Cloud Gateway)
+• API Gateway (Spring Cloud Gateway)
 
 # Guía de uso:
 ### Implementacion de docker:
