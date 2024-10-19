@@ -3,7 +3,7 @@
 <p align="center">
 <a href="https://www.youtube.com/watch?v=O1oEGcQJSn0"><img src="https://github.com/Jonathan-Romano/Jonathan-Romano/blob/main/assets/TechnoMist.jpg" style="height: 75%; width:75%;"/></center></a></p>
 
->Descripción: Imagen implementando el front-end..*
+>Descripción: Imagen ilustrativa implementando el front-end
 
 # Introducción:
 API de Gestión de Productos: 
