@@ -40,7 +40,7 @@ GET  “/api/products-service/product/{id}”
 *Descripción: Este endpoint devuelve los detalles de un producto específico usando su ID.*
 
 Ejemplo:
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![][(https://pandao.github.io/editor.md/examples/images/4.jpg)](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/product-service/product-service-product-1.jpg)
 --
 
 #### • Obtener Producto por Código:
