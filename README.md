@@ -30,7 +30,7 @@ actualizaciones:
 
 # Guía de uso:
 ### Implementacion de docker:
->Una vez se tiene docker en el pc, abrir una consola en la carpeta de TechnoMist-Back-End y ejecutar:
+>Una vez se tiene docker en el pc, configurar las variables de entorno y despues abrir una consola en la carpeta de TechnoMist-Back-End y ejecutar:
 ```
 primero: "docker compose build"
 segunfo: "docoker compose up"
