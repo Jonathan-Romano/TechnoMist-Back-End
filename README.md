@@ -11,10 +11,14 @@ de compras y ventas dentro de una plataforma de comercio electrónico.
 Permite listar productos, administrar el contenido de carritos de compras y 
 registrar ventas.
 
-##Funciones principales: 
+###Funciones principales: 
+
 • Gestión de productos (agregar, eliminar, listar, obtener detalles).
+
 • Manejo del carrito de compras (agregar/eliminar productos).
+
 • Registro de ventas y cálculo del total de la compra.
+
 # Arquitectura:
 ### Servicios:
 La API se divide en tres microservicios principales:
