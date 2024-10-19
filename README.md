@@ -37,8 +37,7 @@ segunfo: "docoker compose up"
 ```
 
 ##### •Esto deberia crearte los siguientes contenedores en docker:
-![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/product-service/product-service-product-1.jpg)
-
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/docker-containers.jpg)
 ---
 ### Servicio de productos:
 
