@@ -243,7 +243,7 @@ GET  “/api/sale-service/sale/list/cart”
 
 Ejemplo:
 
-![]()
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/sale-service/sale-service-sale-list-cart.jpg)
 --
 #### • Crear venta:
 
@@ -291,5 +291,5 @@ DELETE  “/api/cart-service/cart/delete/{id}”
 
 Ejemplo:
 
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/sale-service/sale-service-sale-delete-1.jpg)
 --
