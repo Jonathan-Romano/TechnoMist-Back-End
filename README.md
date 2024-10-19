@@ -1,12 +1,7 @@
-# ANDROID MASTER
+# TECHNOMIST
 
 <p align="center">
-<a href="https://youtu.be/vJapzH_46a8"><img src="https://i.imgur.com/ma1kNJS.jpg" style="height: 75%; width:75%;"/></center></a></p>
-
-
-Aprende a programar sin conocimientos previos. Empezaremos desde lo más básico hasta conseguir desarrollar una aplicación completa.
-
-
+<a href="https://www.youtube.com/watch?v=O1oEGcQJSn0"><img src="https://github.com/Jonathan-Romano/Jonathan-Romano/blob/main/assets/TechnoMist.jpg" style="height: 75%; width:75%;"/></center></a></p>
 
 # Introducción:
 API de Gestión de Productos: 
