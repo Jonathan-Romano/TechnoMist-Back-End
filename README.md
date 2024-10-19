@@ -37,7 +37,7 @@ Peticion:
 ```
 GET  “/api/products-service/product/{id}”
 ```
-*Descripción: Este endpoint devuelve los detalles de un producto específico usando su ID.*
+>Descripción: Este endpoint devuelve los detalles de un producto específico usando su ID..*
 
 Ejemplo:
 
@@ -50,7 +50,7 @@ Peticion:
 ```
 GET  “/api/products-service/product?codigo={codigo}”
 ```
-*Descripción: Este endpoint devuelve los detalles de un producto usando su código único..*
+>Descripción: Este endpoint devuelve los detalles de un producto usando su código único..*
 
 Ejemplo:
 
