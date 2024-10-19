@@ -53,7 +53,8 @@ GET  “/api/products-service/product?codigo={codigo}”
 * Este endpoint devuelve los detalles de un producto usando su código único..*
 
 Ejemplo:
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/product-service/product-service-product-cod-001.jpg)
 --
 #### • Listar Productos:
 
@@ -65,7 +66,7 @@ GET  “/api/products-service/product/list”
 >Descripción: Este endpoint devuelve una lista de todos los productos disponibles en la plataforma..
 
 Ejemplo:
-![]()
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/product-service/product-service-product-1list.jpg)
 ---
 #### •  Crear Producto:
 
@@ -76,7 +77,8 @@ POST  “/products-service/product/create”
 >Descripción: Este endpoint crea un nuevo producto
 
 Ejemplo:
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/product-service/product-service-product-create.jpg)
 ---
 #### •  Editar Producto:
 
@@ -87,7 +89,7 @@ PUT  “/api/products-service/product/edit”
 >Descripción: Este endpoint permite editar los detalles de un producto existente.
 
 Ejemplo:
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/product-service/product-service-product-edit.jpg)
 ---
 #### • Eliminar Producto:
 
@@ -98,7 +100,7 @@ GET  “/api/products-service/product/delete/{id}”
 >Descripción: Este endpoint elimina un producto de la plataforma por su ID.
 
 Ejemplo:
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/product-service/product-service-product-delete.jpg)
 
 ---
 ### Servicio de carritos:
