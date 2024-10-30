@@ -303,16 +303,4 @@ GET  “/api/sale-service/sale/delete/{id}”
 Ejemplo:
 
 ![]()
---
-#### •  Eliminar Carrito:
 
-Peticion:
-```
-DELETE  “/api/cart-service/cart/delete/{id}”
-```
->Descripción: Este endpoint elimina un carrito de compras por su ID.
-
-Ejemplo:
-
-![](https://github.com/Jonathan-Romano/TechnoMist-Back-End/blob/master/public/sale-service/sale-service-sale-delete-1.jpg)
---
