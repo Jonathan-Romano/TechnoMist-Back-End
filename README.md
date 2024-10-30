@@ -120,7 +120,7 @@ Ejemplo:
 
 Peticion:
 ```
-GET  “/api/products-service/product/delete/{id}”
+DELETE  “/api/products-service/product/delete/{id}”
 ```
 >Descripción: Este endpoint elimina un producto de la plataforma por su ID.
 
@@ -196,7 +196,7 @@ Ejemplo:
 
 Peticion:
 ```
-GET  “/api/cart-service/cart/{id}/delete/product/{cod}”
+DELETE  “/api/cart-service/cart/{id}/delete/product/{cod}”
 ```
 >Descripción:  Este endpoint elimina un producto del carrito especificado por su codigo de producto unico.
 
@@ -208,7 +208,7 @@ Ejemplo:
 
 Peticion:
 ```
-GET  “/api/cart-service/cart/delete/{id}”
+DELETE  “/api/cart-service/cart/delete/{id}”
 ```
 >Descripción: Este endpoint elimina un carrito de compras por su ID.
 
@@ -296,7 +296,7 @@ Ejemplo:
 
 Peticion:
 ```
-GET  “/api/sale-service/sale/delete/{id}”
+DELETE  “/api/sale-service/sale/delete/{id}”
 ```
 >Descripción:  Este endpoint elimina una venta utilizando su id.
 
